@@ -33,6 +33,15 @@ namespace WebApplication3.Controllers
             return View(departments);
         }
 
+        public IActionResult Search(string name)
+        {
+            var departments = context.Departments
+                                  .Where(d => EF.Functions.Like(d.Name, $"%{name}%"))
+                                  .ToList();
+
+            return PartialView("_DepartmentTablePartial", departments);
+        }
+
         public IActionResult Details(int id)
         {
             var department = context.Departments.Find(id);

@@ -15,31 +15,37 @@
     <a asp-controller="Departments" asp-action="Create" class="btn btn-success">+ Add New Department</a>
 </div>
 
-<table class="table table-bordered table-striped shadow-sm">
-    <thead class="table-dark">
-        <tr>
-            <th>Name</th>
-            <th style="width: 220px;">Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var dept in Model)
-        {
-            <tr>
-                <td>@dept.Name</td>
-                <td>
-                    <a asp-controller="Departments" asp-action="Details" asp-route-id="@dept.Id" class="btn btn-secondary btn-sm">Details</a>
-                    <a asp-controller="Departments" asp-action="Edit" asp-route-id="@dept.Id" class="btn btn-warning btn-sm mx-1">Edit</a>
-                    <a asp-controller="Departments" asp-action="Delete" asp-route-id="@dept.Id"
-                       class="btn btn-danger btn-sm"
-                       onclick="return confirm('Are you sure you want to delete this department?')">
-                        Delete
-                    </a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+<div class="mb-3">
+    <input type="text" id="searchInput" class="form-control" placeholder="Search by name..." />
+    <button type="button" id="searchBtn" class="btn btn-primary">🔍</button>
+</div>
+
+<div id="departmentsTable">
+    @await Html.PartialAsync("_DepartmentTablePartial", Model)
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script>
+        $('#searchBtn').on('click', function () {
+            const name = $('#searchInput').val();
+
+            $.ajax({
+                url: '@Url.Action("Search", "Departments")',
+                type: 'GET',
+                data: { name: name },
+                success: function (result) {
+                    $('#departmentsTable').html(result);
+                },
+                error: function () {
+                    alert("Something went wrong.");
+                }
+            });
+        });
+    </script>
+}
+
 
 <nav>
     <ul class="pagination justify-content-center">
