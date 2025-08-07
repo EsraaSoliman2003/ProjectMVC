@@ -13,9 +13,23 @@ namespace WebApplication3.Controllers
         {
             context = Context;
         }
-        public IActionResult Index()
+        public IActionResult Index(int page = 1)
         {
-            var departments = context.Departments.ToList();
+            int pageSize = 5;
+
+            var departments = context.Departments
+                .OrderBy(d => d.Id)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            int totalItems = context.Departments.Count();
+            int totalPages = (int)Math.Ceiling((double)totalItems / pageSize);
+
+            ViewBag.CurrentPage = page;
+            ViewBag.TotalPages = totalPages;
+
+
             return View(departments);
         }
 

@@ -14,7 +14,7 @@ namespace WebApplication3.Controllers
         {
             context = Context;
         }
-        public IActionResult Index(string sortBy = "id")
+        public IActionResult Index(string sortBy = "id", int page = 1)
         {
             var query = context.Students.Include(s => s.Department).AsQueryable();
             if (sortBy == "name")
@@ -33,9 +33,24 @@ namespace WebApplication3.Controllers
             {
                 query = query.OrderBy(d => d.Id);
             }
-            var students = query.ToList();
+
+            int pageSize = 5;
+
+            var students = query
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            int totalItems = context.Students.Count();
+            int totalPages = (int)Math.Ceiling((double)totalItems / pageSize);
+
+            ViewBag.CurrentPage = page;
+            ViewBag.TotalPages = totalPages;
+
+
             return View(students);
         }
+
 
         public IActionResult Search(string name)
         {

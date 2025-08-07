@@ -2,6 +2,7 @@
 @{
     Layout = "~/Views/Shared/_CustomLayout.cshtml";
     ViewData["Title"] = "Student List";
+    int totalPages = ViewBag.TotalPages ?? 1;
 }
 
 <h2 class="mb-4 text-primary">Student List</h2>
@@ -42,3 +43,15 @@
     </script>
 }
 
+<nav>
+    <ul class="pagination justify-content-center">
+
+        @for (int i = 1; i <= totalPages; i++)
+        {
+            <li class="page-item">
+                <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+            </li>
+        }
+
+    </ul>
+</nav>
