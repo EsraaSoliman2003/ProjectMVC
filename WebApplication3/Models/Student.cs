@@ -22,5 +22,12 @@ namespace WebApplication3.Models
         public int DepartmentId { get; set; }
         [ForeignKey(nameof(DepartmentId))]
         public Department? Department { get; set; }
+
+        [NotMapped]
+        [Display(Name = "Profile Image")]
+        public IFormFile? ImageFile { get; set; }
+
+        public string? ImagePath { get; set; }
+
     }
 }

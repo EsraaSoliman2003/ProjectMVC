@@ -84,6 +84,13 @@ namespace WebApplication3.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Student student)
         {
+            var fileName = Path.GetFileName(student.ImageFile.FileName);
+            var filePath = "wwwroot/images/" + fileName;
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                student.ImageFile.CopyTo(stream);
+            }
+            student.ImagePath = "/images/" + fileName;
             if (ModelState.IsValid)
             {
                 context.Students.Add(student);
@@ -111,6 +118,13 @@ namespace WebApplication3.Controllers
         {
             if (ModelState.IsValid)
             {
+                string fileName = student.ImageFile.FileName;
+                string filePath = "wwwroot/images/" + fileName;
+                using (FileStream fs = new FileStream(filePath, FileMode.Create))
+                {
+                    student.ImageFile.CopyTo(fs);
+                }
+                student.ImagePath = "/images/" + fileName;
                 context.Students.Update(student);
                 context.SaveChanges();
                 return RedirectToAction(nameof(Index));

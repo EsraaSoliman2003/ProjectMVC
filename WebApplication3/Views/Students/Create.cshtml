@@ -7,7 +7,7 @@
 <h2 class="mb-4 text-primary">Create Student</h2>
 
 <div class="card shadow-sm p-4" style="max-width: 500px;">
-    <form asp-action="Create" method="post">
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
         @Html.AntiForgeryToken()
 
         @Html.Partial("_StudentForm")

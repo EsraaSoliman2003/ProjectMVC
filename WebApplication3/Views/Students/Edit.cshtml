@@ -7,7 +7,7 @@
 <h2 class="mb-4 text-primary">Edit Student</h2>
 
 <div class="card shadow-sm p-4" style="max-width: 500px;">
-    <form asp-action="Edit" method="post">
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
         @Html.AntiForgeryToken()
         <input type="hidden" asp-for="Id" />
 
