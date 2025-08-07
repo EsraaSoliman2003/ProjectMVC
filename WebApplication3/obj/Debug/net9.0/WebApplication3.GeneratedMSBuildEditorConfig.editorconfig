@@ -17,109 +17,109 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplication3
 build_property.RootNamespace = WebApplication3
-build_property.ProjectDir = C:\Users\Esraa Soliman\OneDrive - FEE-MU\Desktop\iti\WebApplication3\WebApplication3\
+build_property.ProjectDir = C:\Users\Esraa Soliman\OneDrive - FEE-MU\Desktop\iti\WebApplication3 - Copy\WebApplication3\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Esraa Soliman\OneDrive - FEE-MU\Desktop\iti\WebApplication3\WebApplication3
+build_property.MSBuildProjectDirectory = C:\Users\Esraa Soliman\OneDrive - FEE-MU\Desktop\iti\WebApplication3 - Copy\WebApplication3
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Courses/Create.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Courses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Courses/Delete.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Courses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Courses/Details.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Courses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Courses/Edit.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Courses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Courses/Index.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Courses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Departments/Create.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Departments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Departments/Details.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Departments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Departments/Edit.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Departments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Departments/Index.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Departments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Home/Index.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Home/Privacy.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Shared/Error.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Shared/_CustomLayout.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Shared/_CustomLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DdXN0b21MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Students/Create.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Students/Delete.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Students/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Students/Details.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Students/Edit.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Students/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Students/Index.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Students/_StudentForm.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Students/_StudentForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcX1N0dWRlbnRGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Students/_StudentsTable.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Students/_StudentsTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcX1N0dWRlbnRzVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/_ViewImports.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/_ViewStart.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3/WebApplication3/Views/Shared/_Layout.cshtml]
+[C:/Users/Esraa Soliman/OneDrive - FEE-MU/Desktop/iti/WebApplication3 - Copy/WebApplication3/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7kk3sr3rte

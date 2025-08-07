@@ -6,22 +6,17 @@ namespace WebApplication3.Controllers
 {
     public class CoursesController : Controller
     {
-        private readonly AppDbContext _context;
-
-        public CoursesController(AppDbContext context)
-        {
-            _context = context;
-        }
+        AppDbContext context = new AppDbContext();
 
         public IActionResult Index()
         {
-            var courses = _context.Courses.ToList();
+            var courses = context.Courses.ToList();
             return View(courses);
         }
 
         public IActionResult Details(int id)
         {
-            var courses = _context.Courses.Find(id);
+            var courses = context.Courses.Find(id);
             return View(courses);
         }
 
@@ -34,38 +29,38 @@ namespace WebApplication3.Controllers
         [HttpPost]
         public IActionResult Create(Course course)
         {
-            _context.Courses.Add(course);
-            _context.SaveChanges();
+            context.Courses.Add(course);
+            context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
 
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            var course = _context.Courses.Find(id);
+            var course = context.Courses.Find(id);
             return View(course);
         }
 
         [HttpPost]
         public IActionResult Edit(Course course)
         {
-            _context.Courses.Update(course);
-            _context.SaveChanges();
+            context.Courses.Update(course);
+            context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Delete(int id)
         {
-            var course = _context.Courses.Find(id);
+            var course = context.Courses.Find(id);
             return View(course);
         }
 
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
         {
-            var course = _context.Courses.Find(id);
-            _context.Courses.Remove(course);
-            _context.SaveChanges();
+            var course = context.Courses.Find(id);
+            context.Courses.Remove(course);
+            context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
     }
