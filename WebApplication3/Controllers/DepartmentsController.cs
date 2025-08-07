@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 using WebApplication3.Data;
 using WebApplication3.Models;
 
@@ -13,12 +14,21 @@ namespace WebApplication3.Controllers
         {
             context = Context;
         }
-        public IActionResult Index(int page = 1)
+        public IActionResult Index(string sortBy = "id", int page = 1)
         {
+            var query = context.Departments.AsQueryable();
+            if (sortBy == "name")
+            {
+                query = query.OrderBy(d => d.Name);
+            }
+            else
+            {
+                query = query.OrderBy(d => d.Id);
+            }
+
             int pageSize = 5;
 
-            var departments = context.Departments
-                .OrderBy(d => d.Id)
+            var departments = query
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
                 .ToList();

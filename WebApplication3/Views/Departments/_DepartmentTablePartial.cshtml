@@ -3,11 +3,16 @@
 <table class="table table-bordered table-striped shadow-sm">
     <thead class="table-dark">
         <tr>
-            <th>ID</th>
-            <th>Name</th>
+            <th>
+                <a asp-action="Index" asp-route-sortBy="id" class="text-white text-decoration-none">ID</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortBy="name" class="text-white text-decoration-none">Name</a>
+            </th>
             <th>Actions</th>
         </tr>
     </thead>
+
     <tbody>
         @foreach (var department in Model)
         {
