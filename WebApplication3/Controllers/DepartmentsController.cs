@@ -82,12 +82,12 @@ namespace WebApplication3.Controllers
 
             if (deptToDelete != null)
             {
-                var student = _context.Students.FirstOrDefault(s => s.DepartmentId == id);
+                var student = context.Students.FirstOrDefault(s => s.DepartmentId == id);
 
                 if (student != null)
                 {
                     ViewBag.Error = "You Can't Delete This Department There is Related Data";
-                    return View("Index", _context.Departments.ToList());
+                    return View("Index", context.Departments.ToList());
                 }
                 
                 context.Departments.Remove(deptToDelete);
@@ -100,7 +100,7 @@ namespace WebApplication3.Controllers
         [AcceptVerbs("GET", "POST")]
         public IActionResult IsNameUnique(string name, int id)
         {
-            var isExist = _context.Departments.Any(d => d.Name == name && d.Id != id);
+            var isExist = context.Departments.Any(d => d.Name == name && d.Id != id);
             return Json(!isExist);
         }
 

@@ -71,8 +71,8 @@ namespace WebApplication3.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Students.Add(student);
-                _context.SaveChanges();
+                context.Students.Add(student);
+                context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             ViewBag.Departments = new SelectList(context.Departments, "Id", "Name");
@@ -96,8 +96,8 @@ namespace WebApplication3.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Students.Update(student);
-                _context.SaveChanges();
+                context.Students.Update(student);
+                context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             ViewBag.Departments = new SelectList(context.Departments, "Id", "Name");
