@@ -90,9 +90,9 @@ namespace WebApplication3.Controllers
         }
 
         [AcceptVerbs("GET", "POST")]
-        public IActionResult IsNameUnique(string name)
+        public IActionResult IsNameUnique(string name, int id)
         {
-            var isExist = _context.Departments.Any(d => d.Name == name);
+            var isExist = _context.Departments.Any(d => d.Name == name && d.Id != id);
             return Json(!isExist);
         }
 
