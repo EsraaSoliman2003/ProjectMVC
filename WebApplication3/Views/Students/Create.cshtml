@@ -1,0 +1,18 @@
+﻿@model WebApplication3.Models.Student
+@{
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+    ViewData["Title"] = "Create Student";
+}
+
+<h2 class="mb-4 text-primary">Create Student</h2>
+
+<div class="card shadow-sm p-4" style="max-width: 500px;">
+    <form asp-action="Create" method="post">
+        @Html.AntiForgeryToken()
+
+        @Html.Partial("_StudentForm")
+
+        <button type="submit" class="btn btn-success">Save</button>
+        <a asp-action="Index" class="btn btn-outline-secondary ms-2">Back to List</a>
+    </form>
+</div>

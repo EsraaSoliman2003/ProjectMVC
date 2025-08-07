@@ -1,0 +1,20 @@
+﻿@model WebApplication3.Models.Department
+@{
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+    ViewData["Title"] = "Create Department";
+}
+
+<h2 class="mb-4 text-primary">Create Department</h2>
+
+<div class="card shadow-sm p-4" style="max-width: 500px;">
+    <form asp-action="Create" asp-controller="Departments" method="post">
+        @Html.AntiForgeryToken()
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Add</button>
+        <a asp-action="Index" asp-controller="Departments" class="btn btn-outline-secondary ms-2">Back to List</a>
+    </form>
+</div>

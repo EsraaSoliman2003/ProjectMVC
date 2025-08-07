@@ -1,0 +1,19 @@
+﻿@model WebApplication3.Models.Student
+@{
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+    ViewData["Title"] = "Edit Student";
+}
+
+<h2 class="mb-4 text-primary">Edit Student</h2>
+
+<div class="card shadow-sm p-4" style="max-width: 500px;">
+    <form asp-action="Edit" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+
+        @Html.Partial("_StudentForm")
+
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <a asp-action="Index" class="btn btn-outline-secondary ms-2">Back to List</a>
+    </form>
+</div>

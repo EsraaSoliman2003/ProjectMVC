@@ -1,0 +1,44 @@
+﻿@model List<WebApplication3.Models.Student>
+@{
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+    ViewData["Title"] = "Student List";
+}
+
+<h2 class="mb-4 text-primary">Student List</h2>
+
+<div class="mb-3">
+    <a asp-action="Create" class="btn btn-success">+ Add New Student</a>
+</div>
+
+<div class="mb-3 d-flex gap-2">
+    <input type="text" id="searchInput" class="form-control" placeholder="Search by name..." />
+    <button type="button" id="searchBtn" class="btn btn-primary">🔍</button>
+</div>
+
+<div id="studentsTable">
+    @await Html.PartialAsync("_StudentsTable", Model)
+</div>
+
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script>
+        $('#searchBtn').on('click', function () {
+            const name = $('#searchInput').val();
+
+            $.ajax({
+                url: '@Url.Action("Search", "Students")',
+                type: 'GET',
+                data: { name: name },
+                success: function (result) {
+                    $('#studentsTable').html(result);
+                },
+                error: function () {
+                    alert("Something went wrong.");
+                }
+            });
+        });
+    </script>
+}
+

@@ -1,0 +1,38 @@
+﻿@model List<WebApplication3.Models.Department>
+
+@{
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+    ViewData["Title"] = "Department List";
+}
+
+<h2 class="mb-4 text-primary">Department List</h2>
+
+<div class="mb-3">
+    <a asp-controller="Departments" asp-action="Create" class="btn btn-success">+ Add New Department</a>
+</div>
+
+<table class="table table-bordered table-striped shadow-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>Name</th>
+            <th style="width: 220px;">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dept in Model)
+        {
+            <tr>
+                <td>@dept.Name</td>
+                <td>
+                    <a asp-controller="Departments" asp-action="Details" asp-route-id="@dept.Id" class="btn btn-secondary btn-sm">Details</a>
+                    <a asp-controller="Departments" asp-action="Edit" asp-route-id="@dept.Id" class="btn btn-warning btn-sm mx-1">Edit</a>
+                    <a asp-controller="Departments" asp-action="Delete" asp-route-id="@dept.Id"
+                       class="btn btn-danger btn-sm"
+                       onclick="return confirm('Are you sure you want to delete this department?')">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

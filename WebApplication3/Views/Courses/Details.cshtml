@@ -1,0 +1,12 @@
+﻿@model Course
+@{
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+    ViewData["Title"] = "Course Details";
+}
+<h2>Course Details</h2>
+
+<div>
+    <p><strong>Course Name:</strong> @Model.CourseName</p>
+</div>
+
+<a asp-action="Index">Back to List</a>

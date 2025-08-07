@@ -1,0 +1,25 @@
+﻿@model WebApplication3.Models.Student
+
+<div class="mb-3">
+    <label asp-for="FullName" class="form-label"></label>
+    <input asp-for="FullName" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label asp-for="Age" class="form-label"></label>
+    <input asp-for="Age" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label asp-for="Email" class="form-label"></label>
+    <input asp-for="Email" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label asp-for="DepartmentId" class="form-label"></label>
+    <select asp-for="DepartmentId" class="form-select" asp-items="ViewBag.Departments">
+        <option value="">-- Select Department --</option>
+    </select>
+</div>
+
+

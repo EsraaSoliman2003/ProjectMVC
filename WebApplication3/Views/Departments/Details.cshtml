@@ -1,0 +1,16 @@
+﻿@model WebApplication3.Models.Department
+@{
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+    ViewData["Title"] = "Department Details";
+}
+
+<h2 class="mb-4 text-primary">Department Details</h2>
+
+<div class="card shadow-sm" style="max-width: 500px;">
+    <div class="card-body">
+        <p class="mb-3"><strong>ID:</strong> @Model.Id</p>
+        <p class="mb-3"><strong>Name:</strong> @Model.Name</p>
+    </div>
+</div>
+
+<a asp-controller="Departments" asp-action="Index" class="btn btn-outline-secondary mt-4">← Back to List</a>

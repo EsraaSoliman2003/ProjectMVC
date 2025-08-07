@@ -1,0 +1,18 @@
+﻿@model Course
+@{
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+    ViewData["Title"] = "Delete Course";
+}
+<h2>Delete Course</h2>
+
+<p>Are you sure you want to delete this course?</p>
+
+<div>
+    <p><strong>Course Name:</strong> @Model.CourseName</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button> |
+    <a asp-action="Index">Cancel</a>
+</form>

@@ -1,0 +1,14 @@
+﻿@model Course
+@{
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+    ViewData["Title"] = "Create Course";
+}
+<h2>Create Course</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="CourseName"></label>
+        <input asp-for="CourseName" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+</form>

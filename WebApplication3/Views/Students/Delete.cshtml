@@ -1,0 +1,16 @@
+﻿@model Student
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h2>Are u sure to delete @Model.FullName?</h2>
+
+<form asp-action="DeleteConfirmed">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+    <a asp-action="Index" class="btn btn-primary">Cancel</a>
+</form>

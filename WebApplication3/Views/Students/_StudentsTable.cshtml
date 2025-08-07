@@ -1,0 +1,40 @@
+﻿@model List<WebApplication3.Models.Student>
+
+<table class="table table-bordered table-striped shadow-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortBy="name" class="text-white text-decoration-none">Name</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortBy="age" class="text-white text-decoration-none">Age</a>
+            </th>
+            <th>Email</th>
+            <th>
+                <a asp-action="Index" asp-route-sortBy="department" class="text-white text-decoration-none">Department</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortBy="id" class="text-white text-decoration-none">ID</a>
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.FullName</td>
+                <td>@s.Age</td>
+                <td>@s.Email</td>
+                <td>@s.Department?.Name</td>
+                <td>@s.Id</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@s.Id" class="btn btn-secondary btn-sm">Details</a>
+                    <a asp-action="Edit" asp-route-id="@s.Id" class="btn btn-warning btn-sm mx-1">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@s.Id" class="btn btn-danger btn-sm"
+                       onclick="return confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
