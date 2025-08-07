@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\views\\departments\\_departmenttablepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\departments\\_departmenttablepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\views\\students\\_studentstable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\students\\_studentstable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\views\\students\\_studentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\students\\_studentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\migrations\\20250807212358_addstudentphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\migrations\\20250807212358_addstudentphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 202,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,80 +66,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Students\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\Index.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Students\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Students\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Students\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T20:23:01.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_StudentForm.cshtml",
-              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\_StudentForm.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Students\\_StudentForm.cshtml",
-              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\_StudentForm.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Students\\_StudentForm.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T20:22:53.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_StudentsTable.cshtml",
-              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\_StudentsTable.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Students\\_StudentsTable.cshtml",
-              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\_StudentsTable.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Students\\_StudentsTable.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T20:21:53.312Z",
+              "WhenOpened": "2025-08-07T21:29:39.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_DepartmentTablePartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Departments\\_DepartmentTablePartial.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Departments\\_DepartmentTablePartial.cshtml",
-              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Departments\\_DepartmentTablePartial.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Departments\\_DepartmentTablePartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Students\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T20:21:24.835Z",
+              "WhenOpened": "2025-08-07T21:29:27.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DepartmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Controllers\\DepartmentsController.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\DepartmentsController.cs",
-              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Controllers\\DepartmentsController.cs",
-              "RelativeToolTip": "WebApplication3\\Controllers\\DepartmentsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "_StudentForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\_StudentForm.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Students\\_StudentForm.cshtml",
+              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\_StudentForm.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Students\\_StudentForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-07T20:37:44.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250807212358_addStudentPhoto.cs",
+              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Migrations\\20250807212358_addStudentPhoto.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Migrations\\20250807212358_addStudentPhoto.cs",
+              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Migrations\\20250807212358_addStudentPhoto.cs",
+              "RelativeToolTip": "WebApplication3\\Migrations\\20250807212358_addStudentPhoto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T20:20:21.738Z",
+              "WhenOpened": "2025-08-07T21:23:59.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Controllers\\StudentsController.cs",
               "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "WebApplication3\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAYwFoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T20:19:43.507Z",
+              "WhenOpened": "2025-08-07T20:37:35.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Students\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\Details.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Students\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-07T20:37:39.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Models\\Student.cs",
+              "RelativeToolTip": "WebApplication3\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T20:37:32.997Z",
               "EditorCaption": ""
             }
           ]
