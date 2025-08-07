@@ -69,6 +69,12 @@ namespace WebApplication3.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Student student)
         {
+            if (ModelState.IsValid)
+            {
+                _context.Students.Add(student);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
             ViewBag.Departments = new SelectList(context.Departments, "Id", "Name");
             return View(student);
         }
@@ -88,6 +94,12 @@ namespace WebApplication3.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Student student)
         {
+            if (ModelState.IsValid)
+            {
+                _context.Students.Update(student);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
             ViewBag.Departments = new SelectList(context.Departments, "Id", "Name");
             return View(student);
         }
