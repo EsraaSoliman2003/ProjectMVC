@@ -6,7 +6,12 @@ namespace WebApplication3.Controllers
 {
     public class CoursesController : Controller
     {
-        AppDbContext context = new AppDbContext();
+        private readonly AppDbContext context;
+
+        public CoursesController(AppDbContext Context)
+        {
+            context = Context;
+        }
 
         public IActionResult Index()
         {

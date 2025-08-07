@@ -7,7 +7,12 @@ namespace WebApplication3.Controllers
 {
     public class DepartmentsController : Controller
     {
-        AppDbContext context = new AppDbContext();
+        private readonly AppDbContext context;
+
+        public DepartmentsController(AppDbContext Context)
+        {
+            context = Context;
+        }
         public IActionResult Index()
         {
             var departments = context.Departments.ToList();

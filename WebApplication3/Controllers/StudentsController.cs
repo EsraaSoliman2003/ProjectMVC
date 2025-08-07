@@ -8,8 +8,12 @@ namespace WebApplication3.Controllers
 {
     public class StudentsController : Controller
     {
-        AppDbContext context = new AppDbContext();
+        private readonly AppDbContext context;
 
+        public StudentsController(AppDbContext Context)
+        {
+            context = Context;
+        }
         public IActionResult Index(string sortBy = "id")
         {
             var query = context.Students.Include(s => s.Department).AsQueryable();
