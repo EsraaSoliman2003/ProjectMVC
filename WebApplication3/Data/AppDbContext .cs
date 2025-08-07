@@ -14,6 +14,12 @@ namespace WebApplication3.Data
         {
             base.OnModelCreating(modelBuilder);
 
+                modelBuilder.Entity<Student>()
+                .HasOne(s => s.Department)
+                .WithMany(d => d.Students)
+                .HasForeignKey(s => s.DepartmentId)
+                .OnDelete(DeleteBehavior.Restrict);
+
             // Department Seed (10 Departments)
             modelBuilder.Entity<Department>().HasData(
                 new Department { Id = 1, Name = "Computer Science" },

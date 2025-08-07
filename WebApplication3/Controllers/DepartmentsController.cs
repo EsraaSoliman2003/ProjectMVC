@@ -82,6 +82,14 @@ namespace WebApplication3.Controllers
 
             if (deptToDelete != null)
             {
+                var student = _context.Students.FirstOrDefault(s => s.DepartmentId == id);
+
+                if (student != null)
+                {
+                    ViewBag.Error = "You Can't Delete This Department There is Related Data";
+                    return View("Index", _context.Departments.ToList());
+                }
+                
                 context.Departments.Remove(deptToDelete);
                 context.SaveChanges();
             }
