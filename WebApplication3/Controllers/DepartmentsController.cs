@@ -89,5 +89,12 @@ namespace WebApplication3.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [AcceptVerbs("GET", "POST")]
+        public IActionResult IsNameUnique(string name)
+        {
+            var isExist = _context.Departments.Any(d => d.Name == name);
+            return Json(!isExist);
+        }
+
     }
 }

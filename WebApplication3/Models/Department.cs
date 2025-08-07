@@ -8,6 +8,8 @@ namespace WebApplication3.Models
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Id { get; set; }
+
+        [Remote(action: "IsNameUnique", controller: "Departments", ErrorMessage = "This department name already exists.")]
         public string? Name { get; set; }
         public ICollection<Student> Students { get; set; } =
             new HashSet<Student>();
