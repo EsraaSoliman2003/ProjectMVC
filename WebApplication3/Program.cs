@@ -1,12 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using WebApplication3.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using WebApplication3.Filters;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(options =>
+{
+    options.Filters.Add<GlobalExceptionFilter>();
+    options.Filters.Add<MaintenanceModeFilter>();
+});
 
 // Inject DbContext using connection string from appsettings
 builder.Services.AddDbContext<AppDbContext>(options =>

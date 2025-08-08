@@ -149,5 +149,11 @@ namespace WebApplication3.Controllers
             return Json(!isExist);
         }
 
+        [AllowAnonymous]
+        public IActionResult Test()
+        {
+            throw new Exception("Test Error");
+        }
+
     }
 }
