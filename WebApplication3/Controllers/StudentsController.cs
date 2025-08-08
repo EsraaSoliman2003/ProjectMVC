@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebApplication3.Data;
@@ -6,6 +7,7 @@ using WebApplication3.Models;
 
 namespace WebApplication3.Controllers
 {
+    [Authorize]
     public class StudentsController : Controller
     {
         private readonly AppDbContext context;
@@ -14,6 +16,8 @@ namespace WebApplication3.Controllers
         {
             context = Context;
         }
+
+        [AllowAnonymous]
         public IActionResult Index(string sortBy = "id", int page = 1)
         {
             var query = context.Students.Include(s => s.Department).AsQueryable();
@@ -52,6 +56,7 @@ namespace WebApplication3.Controllers
         }
 
 
+        [AllowAnonymous]
         public IActionResult Search(string name)
         {
             var students = context.Students
@@ -62,6 +67,7 @@ namespace WebApplication3.Controllers
             return PartialView("_StudentsTable", students);
         }
 
+        [AllowAnonymous]
         public IActionResult Details(int id)
         {
             var student = context.Students.Include(s => s.Department)
@@ -74,6 +80,7 @@ namespace WebApplication3.Controllers
 
 
         [HttpGet]
+        [Authorize(Roles = "Admin,Student")]
         public IActionResult Create()
         {
             ViewBag.Departments = new SelectList(context.Departments, "Id", "Name");
@@ -82,6 +89,7 @@ namespace WebApplication3.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Student")]
         public IActionResult Create(Student student)
         {
             var fileName = Path.GetFileName(student.ImageFile.FileName);
@@ -102,6 +110,7 @@ namespace WebApplication3.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin,Student")]
         public IActionResult Edit(int id)
         {
             var student = context.Students.Find(id);
@@ -114,6 +123,7 @@ namespace WebApplication3.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Student")]
         public IActionResult Edit(Student student)
         {
             if (ModelState.IsValid)
@@ -134,6 +144,7 @@ namespace WebApplication3.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin,Student")]
         public IActionResult Delete(int id)
         {
             var student = context.Students.Find(id);
@@ -145,6 +156,7 @@ namespace WebApplication3.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Student")]
         public IActionResult DeleteConfirmed(int id)
         {
             var student = context.Students.Find(id);

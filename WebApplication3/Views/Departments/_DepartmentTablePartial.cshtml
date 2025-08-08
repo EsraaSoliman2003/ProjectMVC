@@ -20,13 +20,16 @@
                 <td>@department.Id</td>
                 <td>@department.Name</td>
                 <td>
-                    <a asp-controller="Departments" asp-action="Details" asp-route-id="@department.Id" class="btn btn-secondary btn-sm">Details</a>
-                    <a asp-controller="Departments" asp-action="Edit" asp-route-id="@department.Id" class="btn btn-warning btn-sm mx-1">Edit</a>
-                    <a asp-controller="Departments" asp-action="Delete" asp-route-id="@department.Id"
-                       class="btn btn-danger btn-sm"
-                       onclick="return confirm('Are you sure you want to delete this department?')">
-                        Delete
-                    </a>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-controller="Departments" asp-action="Details" asp-route-id="@department.Id" class="btn btn-secondary btn-sm">Details</a>
+                        <a asp-controller="Departments" asp-action="Edit" asp-route-id="@department.Id" class="btn btn-warning btn-sm mx-1">Edit</a>
+                        <a asp-controller="Departments" asp-action="Delete" asp-route-id="@department.Id"
+                        class="btn btn-danger btn-sm"
+                        onclick="return confirm('Are you sure you want to delete this department?')">
+                            Delete
+                        </a>
+                    }
                 </td>
             </tr>
         }

@@ -1,0 +1,19 @@
+﻿@{
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label>Username</label>
+        <input name="username" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Password</label>
+        <input type="password" name="password" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+    <p class="text-danger">@ViewBag.Error</p>
+</form>

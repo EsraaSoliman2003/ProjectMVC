@@ -29,10 +29,13 @@
                 <td>@s.Department?.Name</td>
                 <td>@s.Id</td>
                 <td>
-                    <a asp-action="Details" asp-route-id="@s.Id" class="btn btn-secondary btn-sm">Details</a>
-                    <a asp-action="Edit" asp-route-id="@s.Id" class="btn btn-warning btn-sm mx-1">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@s.Id" class="btn btn-danger btn-sm"
-                       onclick="return confirm('Are you sure?')">Delete</a>
+                    @if (User.IsInRole("Admin") || User.IsInRole("Student"))
+                    {
+                        <a asp-action="Details" asp-route-id="@s.Id" class="btn btn-secondary btn-sm">Details</a>
+                        <a asp-action="Edit" asp-route-id="@s.Id" class="btn btn-warning btn-sm mx-1">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@s.Id" class="btn btn-danger btn-sm"
+                        onclick="return confirm('Are you sure?')">Delete</a>
+                    }
                 </td>
             </tr>
         }

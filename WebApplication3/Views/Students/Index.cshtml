@@ -7,9 +7,12 @@
 
 <h2 class="mb-4 text-primary">Student List</h2>
 
-<div class="mb-3">
-    <a asp-action="Create" class="btn btn-success">+ Add New Student</a>
-</div>
+@if (User.IsInRole("Admin") || User.IsInRole("Student"))
+{
+    <div class="mb-3">
+        <a asp-action="Create" class="btn btn-success">+ Add New Student</a>
+    </div>
+}
 
 <div class="mb-3 d-flex gap-2">
     <input type="text" id="searchInput" class="form-control" placeholder="Search by name..." />

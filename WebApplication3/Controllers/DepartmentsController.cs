@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 using WebApplication3.Data;
@@ -6,6 +7,7 @@ using WebApplication3.Models;
 
 namespace WebApplication3.Controllers
 {
+    [Authorize]
     public class DepartmentsController : Controller
     {
         private readonly AppDbContext context;
@@ -14,6 +16,8 @@ namespace WebApplication3.Controllers
         {
             context = Context;
         }
+
+        [AllowAnonymous]
         public IActionResult Index(string sortBy = "id", int page = 1)
         {
             var query = context.Departments.AsQueryable();
@@ -43,6 +47,7 @@ namespace WebApplication3.Controllers
             return View(departments);
         }
 
+        [AllowAnonymous]
         public IActionResult Search(string name)
         {
             var departments = context.Departments
@@ -52,6 +57,7 @@ namespace WebApplication3.Controllers
             return PartialView("_DepartmentTablePartial", departments);
         }
 
+        [AllowAnonymous]
         public IActionResult Details(int id)
         {
             var department = context.Departments.Find(id);
@@ -66,6 +72,7 @@ namespace WebApplication3.Controllers
 
         // GET
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
@@ -74,6 +81,7 @@ namespace WebApplication3.Controllers
         // POST
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public IActionResult Create(Department dept)
         {
             dept.Id = context.Departments.Max(e => e.Id) + 1;
@@ -84,6 +92,7 @@ namespace WebApplication3.Controllers
 
         // GET
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit(int id)
         {
             var dept = context.Departments.Find(id);
@@ -94,6 +103,7 @@ namespace WebApplication3.Controllers
         // POST
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit(Department dept)
         {
             var deptToUpdate = context.Departments.Find(dept.Id);
@@ -108,6 +118,7 @@ namespace WebApplication3.Controllers
         }
 
 
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id)
         {
             var deptToDelete = context.Departments.Find(id);
@@ -131,6 +142,7 @@ namespace WebApplication3.Controllers
         }
 
         [AcceptVerbs("GET", "POST")]
+        [Authorize(Roles = "Admin")]
         public IActionResult IsNameUnique(string name, int id)
         {
             var isExist = context.Departments.Any(d => d.Name == name && d.Id != id);
