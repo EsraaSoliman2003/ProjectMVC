@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\views\\departments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\departments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\views\\shared\\_customlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\shared\\_customlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|c:\\users\\esraa soliman\\onedrive - fee-mu\\desktop\\iti\\webapplication3 - copy\\webapplication3\\views\\departments\\_departmenttablepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9299000-6494-4FF0-BA4F-06000CFB7585}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\departments\\_departmenttablepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 202,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T12:47:44.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_DepartmentTablePartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Departments\\_DepartmentTablePartial.cshtml",
+              "RelativeDocumentMoniker": "WebApplication3\\Views\\Departments\\_DepartmentTablePartial.cshtml",
+              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Departments\\_DepartmentTablePartial.cshtml",
+              "RelativeToolTip": "WebApplication3\\Views\\Departments\\_DepartmentTablePartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T12:46:23.197Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -55,67 +69,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Students\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Students\\Edit.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Students\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-08T11:42:41.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Departments\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Departments\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Departments\\Edit.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Departments\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-08T11:41:22.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-08T11:31:13.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_CustomLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Shared\\_CustomLayout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication3\\Views\\Shared\\_CustomLayout.cshtml",
-              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Views\\Shared\\_CustomLayout.cshtml",
-              "RelativeToolTip": "WebApplication3\\Views\\Shared\\_CustomLayout.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADUAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-08T11:19:25.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Esraa Soliman\\OneDrive - FEE-MU\\Desktop\\iti\\WebApplication3 - Copy\\WebApplication3\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WebApplication3\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAswHgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T11:18:04.275Z",
-              "EditorCaption": ""
             }
           ]
         }
